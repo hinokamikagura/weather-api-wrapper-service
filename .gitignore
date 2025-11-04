@@ -1,0 +1,66 @@
+# Binaries and build output
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build cache
+*.out
+*.o
+*.a
+*.obj
+*.test
+
+# Go workspace and modules
+vendor/
+*.mod.*
+*.sum.*
+go.work
+go.work.sum
+
+# Dependency or generated files
+coverage.out
+*.prof
+*.pprof
+*.log
+
+# Temporary / local environment
+.env
+.env.local
+.env.*
+*.env
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Docker / containers
+docker-compose.override.yml
+*.pid
+tmp/
+logs/
+*.tmp
+
+# Test data or secrets
+testdata/*
+!testdata/.keep
+secrets.json
+apikeys.json
+*.pem
+*.key
+
+# Node or frontend (if project has dashboard or docs UI)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/

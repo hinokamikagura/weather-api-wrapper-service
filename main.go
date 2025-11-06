@@ -8,7 +8,6 @@ import (
 
 func main() {
 	router.Init()
-
 	// Additional routes and handlers would be defined here
 	fmt.Println("This is weather api wrapper service.")
 }
